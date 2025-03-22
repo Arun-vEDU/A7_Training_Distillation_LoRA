@@ -5,5 +5,5 @@
 | Model Type | Training Loss | Test Set Performance |  
 |------------|--------------|----------------------|
 | Odd Layer   | 0.1385        | 92.30%               | 
-| Even Layer    | XX.XX        | XX.XX%               | 
+| Even Layer    | 0.1411        | 93.74%               | 
 | LoRA     | XX.XX        | XX.XX%               |
