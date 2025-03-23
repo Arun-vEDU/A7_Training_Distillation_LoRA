@@ -1,6 +1,9 @@
 # A7_Training_Distillation_LoRA
 
 ## Compare the performance of LoRA with the Odd Layer and Even Layer initializations
+
+Note: I run this experiment on Google co-labs with 1% datafrom traning set.
+
 | Model Type | Training Loss | Test Set Performance |  
 |------------|--------------|----------------------|
 | Odd Layer   | 0        | 94.16%               | 
