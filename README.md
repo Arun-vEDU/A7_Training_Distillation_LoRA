@@ -5,7 +5,7 @@
 |------------|--------------|----------------------|
 | Odd Layer   | 0        | 94.16%               | 
 | Even Layer    | 0        | 93.74%               | 
-| LoRA     | XX.XX        | 95.58%               |
+| LoRA     | XX.XX        | 92.58%               |
 
 ## Evaluation and Analysis
 
