@@ -7,7 +7,7 @@ Note: I run this experiment on Google co-labs with 1% datafrom traning set.
 | Model Type | Training Loss | Test Set Performance |  
 |------------|--------------|----------------------|
 | Odd Layer   | 0.1613      | 94.16%               | 
-| Even Layer    |1618        | 93.74%               | 
+| Even Layer    |0.1618        | 93.74%               | 
 | LoRA     | 0.1732      | 92.58%               |
 
 ## Evaluation and Analysis
