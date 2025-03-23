@@ -3,9 +3,9 @@
 ## Compare the performance of LoRA with the Odd Layer and Even Layer initializations
 | Model Type | Training Loss | Test Set Performance |  
 |------------|--------------|----------------------|
-| Odd Layer   | 0        | 0%               | 
-| Even Layer    | 0        | 0%               | 
-| LoRA     | XX.XX        | XX.XX%               |
+| Odd Layer   | 0        | 94.16%               | 
+| Even Layer    | 0        | 93.74%               | 
+| LoRA     | XX.XX        | 95.58%               |
 
 ## Evaluation and Analysis
 
@@ -13,4 +13,4 @@
 |------------|--------------|----------------------|
 | Odd Layer   | 0.1385        | 92.30%               | 
 | Even Layer    | 0.1411        | 93.74%               | 
-| LoRA     | XX.XX        | XX.XX%               |
+| LoRA     | XX.XX        | 92.58%               |
