@@ -30,7 +30,7 @@ Note: I run this experiment on my PC with 1% data from the data set.
   1. Odd layers may focus on lower-level features (e.g., syntax), while even layers capture higher-level semantics, improving generalization.
   2. Even Layer’s higher test accuracy despite slightly worse training loss suggests it avoids overfitting better.
   3. LoRA’s lower-rank adaptation might fail to retain critical information, leading to higher training loss.
-# Challenges and Proposed Improvements
+# Challenges
   1. Layer Selection: Choosing optimal layers (odd vs. even) is task-dependent.
   2. Overfitting Risk: Odd Layer’s lower training loss but weaker test accuracy suggests overfitting to the limited 1% dataset.
 # Proposed Improvements
