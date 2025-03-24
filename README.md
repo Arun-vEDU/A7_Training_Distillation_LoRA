@@ -1,4 +1,6 @@
-# A7_Training_Distillation_LoRA
+## Hate Speech/Toxic Comment Dataset
+I have used Jigsaw Unintended Bias in Toxicity Classification dataset for this experiment. 
+Link: https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification/data
 
 ## Compare the performance of LoRA with the Odd Layer and Even Layer initializations
 
