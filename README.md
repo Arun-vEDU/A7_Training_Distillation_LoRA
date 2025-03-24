@@ -12,10 +12,10 @@ Note: I run this experiment on Google co-labs with 1% data from data set.
 | Even Layer    |0.1618        | 93.74%               | 
 | LoRA     | 0.1732      | 92.58%               |
 
-Observations
-  # Odd Layer Initialization performs the best overall, with the lowest training loss and highest test accuracy.
-  # Even Layer Initialization is a close second, making it a viable alternative.
-  # LoRA underperforms in this experiment and may require further optimization.
+# Observations
+  1. Odd Layer Initialization performs the best overall, with the lowest training loss and highest test accuracy.
+  2. Even Layer Initialization is a close second, making it a viable alternative.
+  3. LoRA underperforms in this experiment and may require further optimization.
 
 ## Evaluation and Analysis
 Note: I run this experiment on my PC with 1% data from the data set.
