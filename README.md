@@ -26,5 +26,16 @@ Note: I run this experiment on my PC with 1% data from the data set.
 | Even Layer    | 0.1411        | 93.74%               | 
 | LoRA     | 0.1732        | 92.58%               |
 
+# Performance Differences
+  1. Odd layers may focus on lower-level features (e.g., syntax), while even layers capture higher-level semantics, improving generalization.
+  2. Even Layer’s higher test accuracy despite slightly worse training loss suggests it avoids overfitting better.
+  3. LoRA’s lower-rank adaptation might fail to retain critical information, leading to higher training loss.
+# Challenges and Proposed Improvements
+  1. Layer Selection: Choosing optimal layers (odd vs. even) is task-dependent.
+  2. Overfitting Risk: Odd Layer’s lower training loss but weaker test accuracy suggests overfitting to the limited 1% dataset.
+# Proposed Improvements
+  1. Layer Mixing: Combine odd and even layers to balance low-level and high-level features.
+  2. Regularization: Add dropout or weight decay to mitigate overfitting, especially with limited data.
+  3. Hybrid Approaches: Combine LoRA with distillation (e.g., use LoRA to fine-tune a distilled student model).
 ## Demo video
 [![Watch the video](https://img.youtube.com/vi/tpJAWBjJGdY/maxresdefault.jpg)](https://youtu.be/tpJAWBjJGdY)
