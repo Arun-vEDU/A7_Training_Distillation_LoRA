@@ -39,3 +39,23 @@ Note: I run this experiment on my PC with 1% data from the data set.
   3. Hybrid Approaches: Combine LoRA with distillation (e.g., use LoRA to fine-tune a distilled student model).
 ## Demo video
 [![Watch the video](https://img.youtube.com/vi/tpJAWBjJGdY/maxresdefault.jpg)](https://youtu.be/tpJAWBjJGdY)
+
+## Documntaion on application
+How the Web Application Interfaces with the Model?
+
+  1. Model and Tokenizer Loading
+
+Model: The pre-trained odd_layer_model (a distilled BERT-based model initialized with even layers of the teacher model) is loaded using Hugging Face’s       AutoModelForSequenceClassification.
+
+Tokenizer: The tokenizer associated with the model is loaded using AutoTokenizer to preprocess input text.
+
+  2. Text Classification Workflow
+Input Text: The user enters text into the input box.
+
+Tokenization: The text is tokenized using the model’s tokenizer.
+
+Inference: The tokenized input is passed to the model for prediction.
+
+The model outputs logits (raw prediction scores).
+
+Prediction Mapping: The logits are converted to a class label (Toxic or Non-Toxic).
