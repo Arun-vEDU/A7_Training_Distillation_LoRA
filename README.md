@@ -40,8 +40,7 @@ Note: I run this experiment on my PC with 1% data from the data set.
 ## Demo video
 [![Watch the video](https://img.youtube.com/vi/tpJAWBjJGdY/maxresdefault.jpg)](https://youtu.be/tpJAWBjJGdY)
 
-## Documntaion on application
-How the Web Application Interfaces with the Model?
+## Documentation on how the web application interfaces with the model
 
   1. Model and Tokenizer Loading
 
@@ -50,12 +49,11 @@ Model: The pre-trained odd_layer_model (a distilled BERT-based model initialized
 Tokenizer: The tokenizer associated with the model is loaded using AutoTokenizer to preprocess input text.
 
   2. Text Classification Workflow
+
 Input Text: The user enters text into the input box.
 
 Tokenization: The text is tokenized using the model’s tokenizer.
 
-Inference: The tokenized input is passed to the model for prediction.
-
-The model outputs logits (raw prediction scores).
+Inference: The tokenized input is passed to the model for prediction. The model outputs logits (raw prediction scores).
 
 Prediction Mapping: The logits are converted to a class label (Toxic or Non-Toxic).
